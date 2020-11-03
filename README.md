@@ -4,6 +4,8 @@
 Jouw Country Information App was een grote hit bij Constantijn, dus hij heeft gevraagd of je hem wil
 uitbreiden met wat extra functionaliteit!
 
+![screenshot page](assets/screenshot.png)
+
 Je gaat dit doen met behulp van de REST Counties API. De documentatie over de verschillende endpoints
 kun je [hier](https://restcountries.eu/#api-endpoints-all) vinden. 
 
@@ -17,14 +19,19 @@ Check bij de pseudo-antwoorden of je geen stappen overgeslagen hebt. Begin dan p
 bestand aan en link die aan de nieuwe pagina. Koppel ook het bestaande CSS bestand hieraan.
 2. Maak een functie die alle landen ophaalt en sorteert op grootte van de populatie, van laag naar hoog.
 3. Zorg ervoor dat er een lijst met land-namen en de bijbehorende vlag in de DOM wordt geplaatst. Gebruik 
-destructuring om de properties aan te spreken.
-4. De land-namen moeten worden weergegeven in een kleur die overeenkomt met het continent waar het land in ligt. 
-Dit is altijd één van de volgende vijf contintenten: 
+hierbij destructuring om de properties aan te spreken.
+4. Plaats de landkaart `world_map.png` (te vinden in de `assets map`) bovenaan de pagina. 
+5. De land-namen moeten worden weergegeven in een kleur die overeenkomt met het continent waar het land in ligt.
+Maak hier een aparte functie voor. Een land ligt altijd in één van de volgende vijf contintenten, 
+maar een uitzondering kan voorkomen: 
     * `Africa`: blauw
     * `Americas`: groen
     * `Asia`: rood
     * `Europe`: geel
-    * `Oceania`: paarsgit 
-3. Plaats de landkaart (te vinden in de `assets map`) bovenaan de pagina
-4. Maak een menu-balk die op beide pagina's te zien is, zodat de gebruiker gemakkelijk van de home- naar de 
-landen-pagina kan nagiveren.
+    * `Oceania`: paars
+
+_Tip:_ gebruik de Color Picker extensie om erachter te komen welke kleuren er op de afbeelding staan.
+6. **Bonus:** Zet een event listener op elk land, zodat als de gebruiker op dat land klikt, de populatie eronder tevoorschijn komt. 
+Zorg er ook voor dat als de gebruiker op een land klikt waarbij deze informatie al zichtbaar is, de informatie weer verdwijnt.
+_Tip_: je hebt een unieke ID nodig voor elk tekst-element met populatie-informatie
+7. Zorg ervoor dat de styling aansluit bij de styling op de home-pagina

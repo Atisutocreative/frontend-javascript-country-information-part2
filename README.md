@@ -24,7 +24,7 @@ Dit is altijd één van de volgende vijf contintenten:
     * `Americas`: groen
     * `Asia`: rood
     * `Europe`: geel
-    * `Oceania`: paars
+    * `Oceania`: paarsgit 
 3. Plaats de landkaart (te vinden in de `assets map`) bovenaan de pagina
 4. Maak een menu-balk die op beide pagina's te zien is, zodat de gebruiker gemakkelijk van de home- naar de 
 landen-pagina kan nagiveren.

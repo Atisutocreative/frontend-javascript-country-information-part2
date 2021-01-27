@@ -15,10 +15,6 @@
 // op geklikt, moet hij zichtbaar worden.
 
 
-
-
-
-
 // sla de referentie op naar ons 'anker' element, de <ul> met id country-list
 const countryList = document.getElementById('country-list');
 
@@ -67,7 +63,7 @@ async function getAllCountries() {
         toggleVisibility(populationText);
       });
 
-      // LET OP: JE HAD OOK HET ELEMENT TELKENS IN EN OUT DE DOM KUNNEN HALEN
+      // LET OP: JE HAD OOK HET ELEMENT TELKENS IN EN UIT DE DOM KUNNEN HALEN
       // Dan zou je het <p> element niet standaard aanmaken, maar alleen als onderstaande
       // functie door de event listener wordt aangeroepen. Beide oplossingen zijn prima.
 
